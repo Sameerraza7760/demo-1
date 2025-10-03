@@ -4,6 +4,9 @@
   --background: #ffffff;
   --foreground: #171717;
 }
+.clip-curve {
+  clip-path: ellipse(150% 100% at 50% 0%);
+}
 
 @theme inline {
   --color-background: var(--background);
