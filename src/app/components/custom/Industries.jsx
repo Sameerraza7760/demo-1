@@ -23,8 +23,8 @@ const Industries = () => {
             </p>
           </div>
 
-          {/* Box 2 */}
-          <div className="bg-white rounded-xl shadow-md p-6 text-left hover:shadow-lg transition">
+          {/* Box 2 - Training & Fitness (Red Bottom Border) */}
+          <div className="bg-white rounded-xl shadow-md p-6 text-left hover:shadow-lg transition border-b-4 border-[#b31217]">
             <div className="flex items-center gap-3 mb-3">
               <img src="/running-shoes.svg" alt="Training Icon" className="w-8 h-8" />
               <h3 className="text-xl font-semibold text-gray-800">
@@ -62,7 +62,7 @@ const Industries = () => {
             </p>
           </div>
 
-          {/* Box 5 */}
+          {/* Box 5 - Business & Services (Red Bottom Border) */}
           <div className="bg-white rounded-xl shadow-md p-6 text-left hover:shadow-lg transition">
             <div className="flex items-center gap-3 mb-3">
               <img src="/briefcase (1).svg" alt="Business Icon" className="w-8 h-8" />
@@ -95,3 +95,5 @@ const Industries = () => {
 }
 
 export default Industries
+
+

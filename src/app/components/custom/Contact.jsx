@@ -52,7 +52,7 @@ const Contact = () => {
           </div>
 
           {/* Bottom Dark Contact Info */}
-          <div className="bg-gray-900 text-white text-center p-6">
+          <div className="bg-[#20222D] text-white text-center p-6">
             <p className="mb-3 text-sm md:text-base">
               Please submit your inquiry and our App Development Strategist will
               contact you shortly

@@ -10,6 +10,8 @@ import Services from "./components/custom/Services";
 import Technologies from "./components/custom/Technologies";
 import Testimonials from "./components/custom/Testomonials";
 import WhyChooseUs from "./components/custom/WhyChooseUS";
+
+import CaseStudy from "./components/custom/CaseStudy";
 export default function Home() {
   return (
     <>
@@ -17,6 +19,7 @@ export default function Home() {
       <HeroSection/>
       <IntroSection/>
       <Services/>
+      <CaseStudy/>
         <WhyChooseUs/>
         <Testimonials/>
       <Industries/>
