@@ -4,14 +4,12 @@ const Awards = () => {
   return (
     <section className="w-full bg-white py-12 sm:py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-6xl mx-auto text-center">
-        {/* Heading */}
+       
         <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-800 mb-10 sm:mb-12 underline underline-offset-8 decoration-red-600">
           Awards & Recognition
         </h2>
-
-        {/* Responsive Logos Grid */}
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-10 sm:gap-12 md:gap-16 place-items-center">
-          {/* Logo 1 */}
+        
           <div className="flex items-center justify-center">
             <img
               src="/Image 4.svg"
@@ -20,7 +18,6 @@ const Awards = () => {
             />
           </div>
 
-          {/* Circular Logo (Adjusted to align properly) */}
           <div className="flex flex-col items-center justify-center">
             <div className="relative flex items-center justify-center w-32 h-32 sm:w-40 sm:h-40 md:w-44 md:h-44 rounded-full bg-black/80 backdrop-blur-sm shadow-md hover:shadow-lg transition">
               <img
@@ -36,7 +33,6 @@ const Awards = () => {
             </div>
           </div>
 
-          {/* Logo 3 */}
           <div className="flex items-center justify-center">
             <img
               src="/Image 13.svg"
@@ -45,7 +41,6 @@ const Awards = () => {
             />
           </div>
 
-          {/* Logo 4 */}
           <div className="flex items-center justify-center">
             <img
               src="/Image 2.svg"

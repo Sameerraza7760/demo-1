@@ -7,7 +7,6 @@ export default function Testimonials() {
       className="relative w-full overflow-hidden"
       aria-label="Client Testimonials"
     >
-      {/* Background image */}
       <div
         className="absolute inset-0 bg-center bg-cover [filter:blur(2px)]"
         style={{ backgroundImage: "url('/bg-7.svg')" }}
@@ -16,11 +15,11 @@ export default function Testimonials() {
         <img src="/quote.svg" className="h-6 w-6" alt="" />
       </div> */}
 
-      {/* Main content */}
+     
       <div className="relative mx-auto max-w-7xl px-6 py-16">
-        {/* Red rectangle container */}
+       
         <div className="relative rounded-lg overflow-hidden shadow-xl">
-  {/* 🔴 Red overlay ONLY */}
+ 
   <div
     className="absolute inset-0"
     style={{
@@ -33,9 +32,8 @@ export default function Testimonials() {
     }}
   />
 
-  {/* ✅ Content stays normal, no transparency */}
   <div className="relative grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 p-12">
-    {/* Left side content */}
+  
     <div className="mt-12" >
    
 
@@ -49,7 +47,6 @@ export default function Testimonials() {
       </h2>
     </div>
 
-    {/* Right side testimonial card */}
     <div className="flex items-center justify-center">
       <article className="relative rounded-lg bg-white p-6 sm:p-8 shadow-lg ring-2 ring-gray-200">
         <div className="mb-4 flex items-center gap-4">

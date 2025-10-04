@@ -23,7 +23,7 @@ export default function CaseStudy() {
 
   const scroll = (direction) => {
     if (!carouselRef.current) return
-    const scrollAmount = 260 + 12 // height + gap
+    const scrollAmount = 260 + 12 
     if (direction === "up") {
       carouselRef.current.scrollBy({ top: -scrollAmount, behavior: "smooth" })
     } else {
@@ -94,7 +94,7 @@ export default function CaseStudy() {
           </div>
         </div>
 
-        {/* Carousel */}
+        
         <div className="pointer-events-auto absolute right-6 top-1/2 hidden -translate-y-1/2 md:flex flex-row gap-2">
           <div className="relative flex flex-col items-center justify-center w-[280px] h-[860px] rounded-2xl p-3 gap-3 shadow-xl overflow-hidden">
             <div
@@ -118,7 +118,7 @@ export default function CaseStudy() {
             </div>
           </div>
 
-          {/* Scroll Buttons */}
+          
           <div className="flex flex-col gap-2 items-center justify-center">
             <button
               type="button"

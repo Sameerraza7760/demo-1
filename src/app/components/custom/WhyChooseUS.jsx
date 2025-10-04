@@ -36,13 +36,12 @@ const WhyChooseUs = () => {
     },
   ];
 
-  // Duplicate list for smooth looping effect
   const doubled = [...circles, ...circles];
 
   return (
     <section className="w-full bg-gray-100 py-16 overflow-hidden">
       <div className="mx-auto text-center relative">
-        {/* Heading */}
+     
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
           Why Choose Us?
         </h2>

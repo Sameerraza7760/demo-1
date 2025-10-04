@@ -5,7 +5,7 @@ const HeroSection = () => {
   return (
     <>
       <section className="relative min-h-screen flex items-center justify-center text-white overflow-hidden">
-        {/* Background Layers */}
+     
         <img
           src="/Rectangle 38.svg"
           alt="Main Black Background"
@@ -21,7 +21,7 @@ const HeroSection = () => {
           alt="Inner Background Curve"
           className="absolute inset-0 w-full h-[96%] object-fill -z-10"
         />
-{/* Arrows Inside the Curve */}
+
 <div
   className="
     absolute
@@ -50,7 +50,7 @@ const HeroSection = () => {
             />
           </div>
 
-          {/* Right - Text */}
+      
           <div className="text-center md:text-left">
             <h1 className="text-2xl sm:text-3xl lg:text-5xl font-bold leading-tight">
               Leading the Way in App Development Innovation

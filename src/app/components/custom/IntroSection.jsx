@@ -5,7 +5,7 @@ const IntroSection = () => {
     <section className="w-full bg-white py-12 px-12">
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-[1fr_2fr] gap-8 items-center">
         
-        {/* Left Heading */}
+       
         <div>
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold leading-tight text-gray-900">
             <span className="bg-gradient-to-r from-[#4b0000] to-[#b31217] bg-clip-text text-transparent">
@@ -15,7 +15,7 @@ const IntroSection = () => {
           </h1>
         </div>
 
-        {/* Right Content */}
+     
         <div className="flex flex-col gap-6">
           <p className="text-gray-700 text-sm sm:text-base md:text-lg leading-relaxed">
             Welcome to <span className="font-semibold">Appicoders</span>, your trusted partner for expert mobile app and web development. 

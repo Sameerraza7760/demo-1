@@ -1,9 +1,8 @@
 const Contact = () => {
   return (
-    <section className="w-full"> {/* reduced height */}
+    <section className="w-full"> 
       <div className="flex flex-col md:flex-row h-full">
         
-        {/* Left Side - Red Form (take more width) */}
         <div className="bg-[#E01923] text-white p-18 md:w-2/3  flex flex-col justify-center">
           <h4 className="text-sm uppercase tracking-wider mb-2">LET’S TALK</h4>
           <h2 className="text-2xl md:text-3xl font-bold mb-4">
@@ -40,9 +39,8 @@ const Contact = () => {
           </form>
         </div>
 
-        {/* Right Side (take less width) */}
         <div className="md:w-1/3 flex flex-col">
-          {/* Top Image */}
+        
           <div className="flex-1 relative h-[250px] md:h-full"> 
             <img
               src="/contact.svg"
@@ -51,7 +49,6 @@ const Contact = () => {
             />
           </div>
 
-          {/* Bottom Dark Contact Info */}
           <div className="bg-[#20222D] text-white text-center p-6">
             <p className="mb-3 text-sm md:text-base">
               Please submit your inquiry and our App Development Strategist will
