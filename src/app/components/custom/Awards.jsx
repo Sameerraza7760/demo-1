@@ -12,7 +12,7 @@ const Awards = () => {
         
           <div className="flex items-center justify-center">
             <img
-              src="/Image 4.svg"
+              src="/image 4.svg"
               alt="Award 1"
               className="h-20 sm:h-24 md:h-28 w-auto object-contain transition-transform hover:scale-105"
             />
@@ -35,7 +35,7 @@ const Awards = () => {
 
           <div className="flex items-center justify-center">
             <img
-              src="/Image 13.svg"
+              src="/image 13.svg"
               alt="Award 3"
               className="h-20 sm:h-24 md:h-28 w-auto object-contain transition-transform hover:scale-105"
             />
@@ -43,7 +43,7 @@ const Awards = () => {
 
           <div className="flex items-center justify-center">
             <img
-              src="/Image 2.svg"
+              src="/image 2.svg"
               alt="Award 4"
               className="h-20 sm:h-24 md:h-28 w-auto object-contain transition-transform hover:scale-105"
             />

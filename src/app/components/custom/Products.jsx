@@ -47,9 +47,9 @@ const Products = () => {
         </ul>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-          {/* Box 1 */}
+         
           <div className="bg-white rounded-xl shadow-lg flex items-center justify-center h-56 hover:shadow-xl transition">
-            <img src="/Laptop0.svg" alt="Product 1" className="max-h-40" />
+            <img src="/laptop0.svg" alt="Product 1" className="max-h-40" />
           </div>
 
           <div className="bg-white rounded-xl shadow-lg flex items-center justify-center h-56 hover:shadow-xl transition">
