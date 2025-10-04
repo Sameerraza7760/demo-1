@@ -1,7 +1,8 @@
 const Services = () => {
   return (
- <section className="w-full bg-gradient-to-r from-[#4b0000] to-[#b31217] py-16 px-8">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-[2fr_1fr] gap-12 items-start">
+    <section className="w-full relative overflow-hidden bg-gradient-to-r from-[#4b0000] to-[#b31217] py-16 px-8">
+      {/* Content Wrapper */}
+      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-[2fr_1fr] gap-12 relative z-10">
         
         {/* Left Section */}
         <div>
@@ -14,7 +15,7 @@ const Services = () => {
           </p>
 
           {/* Services Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Custom Mobile Applications */}
             <div className="flex items-start gap-4">
               <div className="w-12 h-12 rounded-full bg-white flex items-center justify-center shadow-md">
@@ -94,17 +95,16 @@ const Services = () => {
             </div>
           </div>
         </div>
-
-        {/* Right Section - Placeholder for Vector */}
-        <div className="flex items-center justify-center">
-          <div className="w-full h-72 bg-white/10 rounded-lg flex items-center justify-center border border-white/20">
-            <span className="text-white/70">[ Vector Placeholder ]</span>
-          </div>
-        </div>
       </div>
-    </section>
 
+      {/* Vector Image pinned bottom-right */}
+      <img
+        src="/vector-service.svg"
+        alt="Services Illustration"
+        className="absolute bottom-[-58] right-0 w-[200px] sm:w-[380px] md:w-[350px] lg:w-[350px] h-auto object-contain"
+      />
+    </section>
   )
 }
 
-export default Services
+export default Services;

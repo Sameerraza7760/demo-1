@@ -22,11 +22,11 @@ const HeroSection = () => {
         />
 <div className="relative z-10 container grid grid-cols-1 md:grid-cols-[1fr_2fr] items-center gap-4 px-6">
   {/* Left - Image */}
-  <div className="flex justify-center md:justify-start">
+  <div className="flex mt-8 justify-center md:justify-start">
     <img
       src="/Mobile-Mockup.svg"
       alt="App Showcase"
-      className="w-[120px] md:w-[200px] lg:w-[330px]"
+      className="w-[120px] md:w-[200px] lg:w-[360px]"
     />
   </div>
 

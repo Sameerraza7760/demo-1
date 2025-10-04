@@ -23,7 +23,7 @@ const Navbar = () => {
         </div>
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex flex-col items-end text-white font-medium">
+        <div className="hidden lg:flex flex-col items-end text-white font-medium">
           <div className="flex gap-6">
             <Link href="#">Home</Link>
             <Link href="#">About</Link>
@@ -44,7 +44,7 @@ const Navbar = () => {
 
         {/* Mobile Menu Button */}
         <button 
-          className="md:hidden text-white"
+          className="lg:hidden text-white"
           onClick={() => setIsOpen(!isOpen)}
         >
           {isOpen ? <X size={28} /> : <Menu size={28} />}
