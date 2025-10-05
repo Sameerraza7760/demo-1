@@ -4,17 +4,17 @@ import React from "react";
 const Products = () => {
   return (
     <section className="relative w-full bg-[#D11725] py-16 px-6 sm:px-8 overflow-hidden">
-
+       <div
+          className="absolute top-0 left-0 w-full h-full bg-no-repeat bg-cover opacity-80"
+          style={{ backgroundImage: "url('/vector(1).svg')"}}
+        ></div>
+        <div
+          className="absolute top-[400] left-0 w-full h-full bg-no-repeat bg-cover opacity-80"
+          style={{ backgroundImage: "url('/vector2.svg')"}}
+        ></div>
       <div className="absolute inset-0 -z-10">
       
-        <div
-          className="absolute top-0 left-0 w-full h-full bg-no-repeat bg-cover opacity-30"
-          style={{ backgroundImage: "url('/vector1.svg')" }}
-        ></div>
-        <div
-          className="absolute top-0 left-0 w-full h-full bg-no-repeat bg-cover opacity-30"
-          style={{ backgroundImage: "url('/vector2.svg')" }}
-        ></div>
+       
       </div>
       
       <div className="max-w-6xl mx-auto text-center relative z-10">
